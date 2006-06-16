@@ -1,0 +1,87 @@
+gnome-games-extra-data
+-------------------------------------------
+Extra artwork for gnome-games.
+
+
+Canonical homepage:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gnome-games-extra-data/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-games-extra-data-2.14.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gnome-games-extra-data-2.14.0-1.cygport all
+
+This will create:
+  /usr/src/gnome-games-extra-data-2.14.0-1-src.tar.bz2
+  /usr/src/gnome-games-extra-data-2.14.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/Cygwin/gnome-games-extra-data-2.14.0.README
+  /usr/share/doc/gnome-games-extra-data-2.14.0/AUTHORS
+  /usr/share/doc/gnome-games-extra-data-2.14.0/COPYING
+  /usr/share/doc/gnome-games-extra-data-2.14.0/ChangeLog
+  /usr/share/doc/gnome-games-extra-data-2.14.0/INSTALL
+  /usr/share/doc/gnome-games-extra-data-2.14.0/MAINTAINERS
+  /usr/share/doc/gnome-games-extra-data-2.14.0/NEWS
+  /usr/share/doc/gnome-games-extra-data-2.14.0/README
+  /usr/share/gnome-games/same-gnome/themes/2.10/blink.png
+  /usr/share/gnome-games/same-gnome/themes/2.10/glass.png
+  /usr/share/gnome-games/same-gnome/themes/2.10/marbles.png
+  /usr/share/gnome-games/same-gnome/themes/2.10/matrix.png
+  /usr/share/gnome-games/same-gnome/themes/2.10/rotate.svg
+  /usr/share/pixmaps/glines/classic.png
+  /usr/share/pixmaps/glines/dots.png
+  /usr/share/pixmaps/glines/gumball.png
+  /usr/share/pixmaps/glines/pulse.png
+  /usr/share/pixmaps/gnobots2/cows.png
+  /usr/share/pixmaps/gnobots2/eggs.png
+  /usr/share/pixmaps/gnobots2/mice.png
+  /usr/share/pixmaps/gnome-games-common/cards/bellot.svg
+  /usr/share/pixmaps/gnome-games-common/cards/dondorf.svg
+  /usr/share/pixmaps/gnome-games-common/cards/ornamental.svg
+  /usr/share/pixmaps/gnometris/5blocks-tig.png
+  /usr/share/pixmaps/gnometris/5blocks-tim.png
+  /usr/share/pixmaps/gnometris/5blocks.png
+  /usr/share/pixmaps/gnometris/7blocks.png
+  /usr/share/pixmaps/gnometris/7stones-gn.png
+  /usr/share/pixmaps/gnometris/7stones2-gn.png
+  /usr/share/pixmaps/iagno/blend.png
+  /usr/share/pixmaps/iagno/flipblend.png
+  /usr/share/pixmaps/iagno/metal.png
+  /usr/share/pixmaps/iagno/metal2.png
+  /usr/share/pixmaps/iagno/shrink.png
+  /usr/share/pixmaps/iagno/sunmoon.png
+  /usr/share/pixmaps/mahjongg/default.png
+  /usr/share/pixmaps/mahjongg/default2.png
+  /usr/share/pixmaps/mahjongg/maya.png
+  /usr/share/pixmaps/mahjongg/seta.png
+
+------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump for gnome-games-2.14.
+
+----- version 2.12.0-1 -----
+Version bump for gnome-games-2.12.
+
+----- version 2.10.0-1 -----
+Version bump for gnome-games-2.10.
+
+----- version 2.8.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
