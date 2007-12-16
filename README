@@ -12,28 +12,32 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gnome-games-extra-data-2.18.0-1-src.tar.bz2
+  unpack gnome-games-extra-data-2.20.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gnome-games-extra-data-2.18.0-1.cygport all
+  cygport ./gnome-games-extra-data-2.20.0-1.cygport all
 
 This will create:
-  /usr/src/gnome-games-extra-data-2.18.0-1-src.tar.bz2
-  /usr/src/gnome-games-extra-data-2.18.0-1.tar.bz2
+  /usr/src/gnome-games-extra-data-2.20.0-1-src.tar.bz2
+  /usr/src/gnome-games-extra-data-2.20.0-1.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/gnome-games-extra-data-2.18.0.README
-  /usr/share/doc/gnome-games-extra-data-2.18.0/AUTHORS
-  /usr/share/doc/gnome-games-extra-data-2.18.0/COPYING
-  /usr/share/doc/gnome-games-extra-data-2.18.0/ChangeLog
-  /usr/share/doc/gnome-games-extra-data-2.18.0/INSTALL
-  /usr/share/doc/gnome-games-extra-data-2.18.0/MAINTAINERS
-  /usr/share/doc/gnome-games-extra-data-2.18.0/NEWS
-  /usr/share/doc/gnome-games-extra-data-2.18.0/README
+  /usr/share/doc/gnome-games-extra-data-2.20.0/AUTHORS
+  /usr/share/doc/gnome-games-extra-data-2.20.0/COPYING
+  /usr/share/doc/gnome-games-extra-data-2.20.0/ChangeLog
+  /usr/share/doc/gnome-games-extra-data-2.20.0/INSTALL
+  /usr/share/doc/gnome-games-extra-data-2.20.0/MAINTAINERS
+  /usr/share/doc/gnome-games-extra-data-2.20.0/NEWS
+  /usr/share/doc/gnome-games-extra-data-2.20.0/README
+  /usr/share/gnome-games-common/cards/anglo.svg
+  /usr/share/gnome-games-common/cards/bellot.svg
+  /usr/share/gnome-games-common/cards/dondorf.svg
+  /usr/share/gnome-games-common/cards/ornamental.svg
+  /usr/share/gnome-games-common/cards/paris.svg
   /usr/share/gnome-games/same-gnome/themes/2.10/blink.png
   /usr/share/gnome-games/same-gnome/themes/2.10/glass.png
   /usr/share/gnome-games/same-gnome/themes/2.10/marbles.png
@@ -46,10 +50,6 @@ Files included in the binary package:
   /usr/share/pixmaps/gnobots2/cows.png
   /usr/share/pixmaps/gnobots2/eggs.png
   /usr/share/pixmaps/gnobots2/mice.png
-  /usr/share/pixmaps/gnome-games-common/cards/bellot.svg
-  /usr/share/pixmaps/gnome-games-common/cards/dondorf.svg
-  /usr/share/pixmaps/gnome-games-common/cards/ornamental.svg
-  /usr/share/pixmaps/gnome-games-common/cards/paris.svg
   /usr/share/pixmaps/gnometris/5blocks-tig.png
   /usr/share/pixmaps/gnometris/5blocks-tim.png
   /usr/share/pixmaps/gnometris/5blocks.png
@@ -71,6 +71,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 2.20.0-1 -----
+Version bump for gnome-games-2.20.
 
 ----- version 2.18.0-1 -----
 Version bump for gnome-games-2.18.
